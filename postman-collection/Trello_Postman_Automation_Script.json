@@ -1,0 +1,618 @@
+{
+	"id": "23495b2b-6eb3-4f63-8c31-2a6477de0912",
+	"name": "Trello API Assignment",
+	"timestamp": "2026-06-30T08:38:48.347Z",
+	"collection_id": "54302627-a5b9b49c-ae1c-41e6-a96f-236b098782b5",
+	"folder_id": 0,
+	"environment_id": "54302627-2f155c36-8725-4cdc-a973-99dab3ah037c",
+	"totalPass": 150,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-06-30T08:38:17.783Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f205d02c-8c10-40cc-ba66-4438ef220144",
+			"name": "Get All Boards",
+			"url": "https://api.trello.com/1/members/me/boards?key=xxx&token=xxx",
+			"time": 335,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 2000 ms": true,
+				"Response is JSON": true,
+				"Board array is returned": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2000 ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is JSON": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Board array is returned": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				398,
+				452,
+				335,
+				330,
+				335
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 2000 ms": true,
+					"Response is JSON": true,
+					"Board array is returned": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 2000 ms": true,
+					"Response is JSON": true,
+					"Board array is returned": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 2000 ms": true,
+					"Response is JSON": true,
+					"Board array is returned": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 2000 ms": true,
+					"Response is JSON": true,
+					"Board array is returned": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 2000 ms": true,
+					"Response is JSON": true,
+					"Board array is returned": true
+				}
+			]
+		},
+		{
+			"id": "e9bda8e4-f352-4863-9cce-61bfb2308600",
+			"name": "Create Board",
+			"url": "https://api.trello.com/1/boards?key=xxx&token=xxx&name=Production%20Board",
+			"time": 1746,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is successful": true,
+				"Response is JSON": true,
+				"Board name should be correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is successful": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is JSON": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Board name should be correct": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				547,
+				559,
+				562,
+				525,
+				1746
+			],
+			"allTests": [
+				{
+					"Status code is successful": true,
+					"Response is JSON": true,
+					"Board name should be correct": true
+				},
+				{
+					"Status code is successful": true,
+					"Response is JSON": true,
+					"Board name should be correct": true
+				},
+				{
+					"Status code is successful": true,
+					"Response is JSON": true,
+					"Board name should be correct": true
+				},
+				{
+					"Status code is successful": true,
+					"Response is JSON": true,
+					"Board name should be correct": true
+				},
+				{
+					"Status code is successful": true,
+					"Response is JSON": true,
+					"Board name should be correct": true
+				}
+			]
+		},
+		{
+			"id": "b2e7c7a9-882b-4a72-966f-1787b551b30a",
+			"name": "Get Single Board",
+			"url": "https://api.trello.com/1/boards/6a4380930800e9f95ceb54ab?key=xxx&token=xxx",
+			"time": 321,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is JSON": true,
+				"Board ID is correct": true,
+				"Board name exists": true,
+				"Board is not closed": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is JSON": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Board ID is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Board name exists": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Board is not closed": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				442,
+				782,
+				344,
+				366,
+				321
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Board ID is correct": true,
+					"Board name exists": true,
+					"Board is not closed": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Board ID is correct": true,
+					"Board name exists": true,
+					"Board is not closed": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Board ID is correct": true,
+					"Board name exists": true,
+					"Board is not closed": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Board ID is correct": true,
+					"Board name exists": true,
+					"Board is not closed": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Board ID is correct": true,
+					"Board name exists": true,
+					"Board is not closed": true
+				}
+			]
+		},
+		{
+			"id": "1c277063-c40f-4f3c-93d8-ccd75f2ffd59",
+			"name": "Create TODO List",
+			"url": "https://api.trello.com/1/lists?key=xxx&token=xxx&name=API%20TODO&idBoard=6a4380930800e9f95ceb54ab",
+			"time": 882,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is JSON": true,
+				"List name is TODO": true,
+				"List belongs to correct board": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is JSON": {
+					"pass": 5,
+					"fail": 0
+				},
+				"List name is TODO": {
+					"pass": 5,
+					"fail": 0
+				},
+				"List belongs to correct board": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				472,
+				381,
+				412,
+				836,
+				882
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"List name is TODO": true,
+					"List belongs to correct board": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"List name is TODO": true,
+					"List belongs to correct board": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"List name is TODO": true,
+					"List belongs to correct board": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"List name is TODO": true,
+					"List belongs to correct board": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"List name is TODO": true,
+					"List belongs to correct board": true
+				}
+			]
+		},
+		{
+			"id": "ba6863d0-bbb9-4cab-abf2-07ae94302f06",
+			"name": "Create DONE List",
+			"url": "https://api.trello.com/1/lists?key=xxx1&token=xxx&name=API%20DONE&idBoard=6a4380930800e9f95ceb54ab",
+			"time": 374,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is JSON": true,
+				"List name is API DONE": true,
+				"List belongs to correct board": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is JSON": {
+					"pass": 5,
+					"fail": 0
+				},
+				"List name is API DONE": {
+					"pass": 5,
+					"fail": 0
+				},
+				"List belongs to correct board": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				472,
+				370,
+				389,
+				822,
+				374
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"List name is API DONE": true,
+					"List belongs to correct board": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"List name is API DONE": true,
+					"List belongs to correct board": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"List name is API DONE": true,
+					"List belongs to correct board": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"List name is API DONE": true,
+					"List belongs to correct board": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"List name is API DONE": true,
+					"List belongs to correct board": true
+				}
+			]
+		},
+		{
+			"id": "e9e0620e-9109-4b56-a9e6-2ac0b07ba1e7",
+			"name": "Create Card",
+			"url": "https://api.trello.com/1/cards?key=xxx&token=xxx&name=Forgot%20Password%20Testing",
+			"time": 501,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is JSON": true,
+				"Card name should be correct": true,
+				"Card belongs to TODO List": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is JSON": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Card name should be correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Card belongs to TODO List": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				528,
+				2622,
+				511,
+				968,
+				501
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Card name should be correct": true,
+					"Card belongs to TODO List": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Card name should be correct": true,
+					"Card belongs to TODO List": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Card name should be correct": true,
+					"Card belongs to TODO List": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Card name should be correct": true,
+					"Card belongs to TODO List": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Card name should be correct": true,
+					"Card belongs to TODO List": true
+				}
+			]
+		},
+		{
+			"id": "97f702a2-8cb1-419f-a7e5-3ae455d766b5",
+			"name": "Move card to DONE list",
+			"url": "https://api.trello.com/1/cards/6a438096220db2197a53dd1f?key=xxx&token=xxx&idList=6a438095c2018c2a7d9f0dbd",
+			"time": 493,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is JSON": true,
+				"Card moved to API DONE List": true,
+				"Card name should be correct": true,
+				"Card ID remains same": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is JSON": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Card moved to API DONE List": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Card name should be correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Card ID remains same": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				468,
+				542,
+				491,
+				465,
+				493
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Card moved to API DONE List": true,
+					"Card name should be correct": true,
+					"Card ID remains same": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Card moved to API DONE List": true,
+					"Card name should be correct": true,
+					"Card ID remains same": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Card moved to API DONE List": true,
+					"Card name should be correct": true,
+					"Card ID remains same": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Card moved to API DONE List": true,
+					"Card name should be correct": true,
+					"Card ID remains same": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is JSON": true,
+					"Card moved to API DONE List": true,
+					"Card name should be correct": true,
+					"Card ID remains same": true
+				}
+			]
+		},
+		{
+			"id": "70b8cb77-7c47-4406-b021-ad50d13410d3",
+			"name": "Delete Board",
+			"url": "https://api.trello.com/1/boards/6a4380930800e9f95ceb54ab?key=xxx&token=xxx",
+			"time": 1050,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is successful": true
+			},
+			"testPassFailCounts": {
+				"Status code is successful": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				825,
+				1785,
+				1171,
+				715,
+				1050
+			],
+			"allTests": [
+				{
+					"Status code is successful": true
+				},
+				{
+					"Status code is successful": true
+				},
+				{
+					"Status code is successful": true
+				},
+				{
+					"Status code is successful": true
+				},
+				{
+					"Status code is successful": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 26589,
+	"collection": {
+		"requests": [
+			{
+				"id": "f205d02c-8c10-40cc-ba66-4438ef220144",
+				"method": "GET"
+			},
+			{
+				"id": "e9bda8e4-f352-4863-9cce-61bfb2308600",
+				"method": "POST"
+			},
+			{
+				"id": "b2e7c7a9-882b-4a72-966f-1787b551b30a",
+				"method": "GET"
+			},
+			{
+				"id": "1c277063-c40f-4f3c-93d8-ccd75f2ffd59",
+				"method": "POST"
+			},
+			{
+				"id": "ba6863d0-bbb9-4cab-abf2-07ae94302f06",
+				"method": "POST"
+			},
+			{
+				"id": "e9e0620e-9109-4b56-a9e6-2ac0b07ba1e7",
+				"method": "POST"
+			},
+			{
+				"id": "97f702a2-8cb1-419f-a7e5-3ae455d766b5",
+				"method": "PUT"
+			},
+			{
+				"id": "70b8cb77-7c47-4406-b021-ad50d13410d3",
+				"method": "DELETE"
+			}
+		]
+	}
+}

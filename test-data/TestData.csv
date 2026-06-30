@@ -1,0 +1,6 @@
+boardName,cardName
+Sprint Board,Login API Testing
+Regression Board,Payment API Testing
+Smoke Testing Board,Profile API Testing
+UAT Board,User Profile Testing
+Production Board,Forgot Password Testing
