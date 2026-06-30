@@ -143,4 +143,3 @@ Collection Runner execution screenshots and API execution screenshots are includ
 ## 👨‍💻 Author
 **Abhidept Singh**
 
-**Abhidept Singh**
